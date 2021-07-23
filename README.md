@@ -22,7 +22,6 @@ To access this project on your local files, you can clone it using these steps
 
 # BDD
 ## User Stories 
-### As as customer, one will be able to do the following,
  As a user I would like to:
 
   - Enter a github username using a form.
