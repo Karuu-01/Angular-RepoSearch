@@ -1,13 +1,17 @@
 # Project Name
  - Repo-Seach,
+
 # Project Description
  - It is a website where users may enter a GitHub username into a form, submit it, and see names and descriptions of that person's public repositories. A person can also look for repositories. 
+
 # Author(s) information
  - Brian Karu.
+
 # Prerequisities
  - You need to have git installed
  - You can install it with the following command in your terminal
 `$ sudo apt install git-all`
+
 # Setup instructions
 To access this project on your local files, you can clone it using these steps
 1. Open your terminal
@@ -15,6 +19,7 @@ To access this project on your local files, you can clone it using these steps
  https://github.com/Karuu-01/Angular-RepoSearch
 1. This will clone the repositoty into your local folder
 1. __Enjoy :)__:)__
+
 # BDD
 ## User Stories 
 ### As as customer, one will be able to do the following,
@@ -24,8 +29,10 @@ To access this project on your local files, you can clone it using these steps
   - Submit the form and see descriptions of other peoples repositories.
   - Delete a form with repositories
   - See the number of upvotes and number of downvotes for each repository.
+
 # Live Site
 View [Live] ( https://github.com/Karuu-01/Angular-RepoSearch)
+
 # Technologies Used
 1. HTML
 1. CSS
@@ -33,6 +40,7 @@ View [Live] ( https://github.com/Karuu-01/Angular-RepoSearch)
 1. ANGULARJS
 1. BOOTSRAP
 1. GIT
+
 # RepoSearch
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.1.
@@ -60,6 +68,7 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
 # Licence And Copyright Information
  - Copyright 2021 Brian Karu.
 
