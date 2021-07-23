@@ -15,6 +15,13 @@ To access this project on your local files, you can clone it using these steps
  https://github.com/Karuu-01/Angular-RepoSearch
 1. This will clone the repositoty into your local folder
 1. __Enjoy :)__:)__
+# Technologies Used
+1. HTML
+1. CSS
+1. JAVASCRIPT
+1. ANGULARJS
+1. BOOTSRAP
+1. GIT
 # RepoSearch
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.1.
