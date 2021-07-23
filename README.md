@@ -4,6 +4,10 @@
  - It is a website where users may enter a GitHub username into a form, submit it, and see names and descriptions of that person's public repositories. A person can also look for repositories. 
 # Author(s) information
  - Brian Karu.
+# Prerequisities
+ - You need to have git installed
+ - You can install it with the following command in your terminal
+`$ sudo apt install git-all`
 # RepoSearch
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.1.
