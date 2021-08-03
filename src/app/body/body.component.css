@@ -1,12 +1,13 @@
 *{
     margin: 0%;
-    font-family: 'Courier New', 'cursive';
+   
+    font-family: 'Courier New', Courier, monospace;
 }
 
 nav{
     /*text-align: center; */
     font-size: 15px;
-    background-color: blue;
+    background-color: rgb(41, 33, 33);
     color: cornsilk;
 }
 .search{
@@ -26,8 +27,7 @@ nav{
 }
 .profile{
     margin-left: 13%;
-    border-color: cyan;
-    box-shadow: 9px 9px 9px 9px royalblue;
+    border-color: darkgreen;
 }
 li{
     opacity: o.8;
@@ -39,5 +39,5 @@ li{
     opacity: o.8;
     background-color: cornsilk;
     border-radius: 3%;
-    color: darkcyan;
+    color: darkblue;
 }
