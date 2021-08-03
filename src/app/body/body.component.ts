@@ -7,7 +7,7 @@ import { DataService } from '../data.service';
   styleUrls: ['./body.component.css']
 })
 export class BodyComponent implements OnInit {
-  repoitems: any[];
+  repoitems!: any[];
   repoName:string= "bootsrap";
 
   constructor(private DataService: DataService) { 
@@ -18,12 +18,13 @@ export class BodyComponent implements OnInit {
     this.DataService.UpdateRepo(this.repoName);
     this.DataService.searchrepos().subscribe(repo => {
      
-      this.repoitems = repo["items"];
+      this.repoitems = this.repoitems;
       console.log(this.repoitems);
     })
   }
 
-  ngOnInit() {
+
+  ngOnInit(){
     this.findRepo()
   }
 

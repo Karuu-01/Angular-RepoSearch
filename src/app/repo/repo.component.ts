@@ -29,7 +29,7 @@ constructor(private DataService: DataService) {}
     })
   }
 
-  ngOnInit() {
+  ngOnInit(){
     this.findUser()
   }
 

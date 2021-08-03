@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
-//import {HttpClient} from '@angular/common/http';
+//import { HttpClient } from '@angular/common/http';
 //import { map } from 'rxjs/operators';
 
 
@@ -8,8 +8,8 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
   providedIn: 'root'
 })
 export class DataService {
-  username: string;
-  repoName: string;
+  username!: string;
+  repoName!: string;
   clientId: string = "c789323b20a2d31dc9fa";
   clientSecret: string = "83e428e5ed1c99fded8ab02686753f74656f9f6b";
   apikey:string='be05ad82ef1dec303061648a172836e81613bc78';
@@ -38,5 +38,5 @@ export class DataService {
   UpdateRepo(repo:string) {
     this.repoName = repo;
   }
-
+  
 }
