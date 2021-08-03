@@ -6,8 +6,8 @@
 
 nav{
     /*text-align: center; */
-    font-size: 15px;
-    background-color: rgb(41, 33, 33);
+    font-size: 25px;
+    background-color: rgb(104, 77, 223);
     color: cornsilk;
 }
 .search{
@@ -22,17 +22,18 @@ nav{
     margin-top: 20px;
     width: 100%;
     padding: 8px 16px;
-    border-color: green;
+    border-color: rgb(23, 26, 23);
     border-width: 2px;
 }
 .profile{
     margin-left: 13%;
-    border-color: darkgreen;
+    border-color: rgb(32, 34, 32);
+    box-shadow: 5px 5px 5px 5px cadetblue;
 }
 li{
     opacity: o.8;
     color: rgb(10, 10, 10);
-    background-color: cornsilk;
+    background-color: rgb(121, 172, 155);
    
 }
 .top{

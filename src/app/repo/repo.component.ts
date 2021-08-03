@@ -9,7 +9,7 @@ import { DataService } from '../data.service';
 export class RepoComponent implements OnInit {
   user: any;
   userRepos:any;
-  username: string = 'robaa2168'
+  username: string = 'karuu-01'
   imageWidth: number = 150;
   imageHeight: number = 200;
 
