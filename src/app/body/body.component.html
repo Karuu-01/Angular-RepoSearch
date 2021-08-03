@@ -1,6 +1,5 @@
-
 <nav class="navbar navbar-expand-lg navbar-dark primary-color">
-  <a class="navbar-brand" href="#">gitHub</a>
+  <a class="navbar-brand" href="#">Welcome To GitHub Search User Application</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -8,10 +7,6 @@
   <div class="collapse navbar-collapse" id="navbarNav">
    </div>
 </nav>
-<div class="search">
-  <h4>Enter your repository name</h4>
-  <input type="text" placeholder="search"  [(ngModel)]='repoName' (keyup)="findRepo()">
-</div> 
 <div class="container">
   <div *ngIf="repoitems">
     <div class="card mt-4 profile" *ngFor='let item of repoitems'>
