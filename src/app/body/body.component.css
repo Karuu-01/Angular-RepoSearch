@@ -1,0 +1,43 @@
+*{
+    margin: 0%;
+    font-family: 'Courier New', 'cursive';
+}
+
+nav{
+    /*text-align: center; */
+    font-size: 15px;
+    background-color: blue;
+    color: cornsilk;
+}
+.search{
+    max-width: 600px;
+    margin: 30px auto;
+    text-align: center;
+    border-radius: 20px;
+    font: 12px;
+
+}
+.search input{
+    margin-top: 20px;
+    width: 100%;
+    padding: 8px 16px;
+    border-color: green;
+    border-width: 2px;
+}
+.profile{
+    margin-left: 13%;
+    border-color: cyan;
+    box-shadow: 9px 9px 9px 9px royalblue;
+}
+li{
+    opacity: o.8;
+    color: rgb(10, 10, 10);
+    background-color: cornsilk;
+   
+}
+.top{
+    opacity: o.8;
+    background-color: cornsilk;
+    border-radius: 3%;
+    color: darkcyan;
+}
